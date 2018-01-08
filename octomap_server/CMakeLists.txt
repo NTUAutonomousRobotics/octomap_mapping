@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(octomap_server)
 
+set(CMAKE_BUILD_TYPE Release)
+
 set(PACKAGE_DEPENDENCIES
   roscpp
   visualization_msgs
